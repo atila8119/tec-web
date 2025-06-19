@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletores Descendentes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section id="descendente">
+        <h2> Seletores Descendentes</h2>
+        <div>
+            <p> Estamos combinando os seletores</p>
+            <section>
+                <p>um novo paragráfo aqui temos</p>
+            </section>
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="filho-direto">
+        <h2>Seletores filho-direto</h2>
+        <div>
+            <p>Este paragráfo ficara vermelho, pois é um filho direto do div</p>
+            <section>
+                <p>um novo paragráfo temos aqui</p>
+            </section>
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="adjacente">
+        <h2>Seletores Adjacentes</h2>
+        <h3>Titulo </h3>
+        <p>ESte paragráfo ficará laranja,  pois é adjacente ao h3</p>
+        <p>Este paragráfo não será afetado!</p>
+    </section>
+
+    <hr>
+    <section id="irmaos">
+        <h2> Seletores de  Irmãos  Gerais </h2>
+        <h3>Título 2</h3>
+        <p> Todos os paragráfos após este título ficarão roxos</p>
+        <p> este  também</p>
+    </section>
+
+    <hr>
+
+    <section id="grupo">
+        <div>
+            <h2> Seletores de Grupo</h2>
+            <h1> Este Título é um h1</h1>
+            <h2> Este tíyulo é um h2</h2>
+            <p> Todos os paragráfos com seletores de grupo.</p>
+            <p> Este também! </p>
+        </div>
+        
+    </section>
+
+    <hr>
+
+    <section id="combinando">
+        <h2>Combinando Seletores para uma maior especificidade </h2>
+        <div class="container">
+            <p class="especial"> Este paragráfo é especial!</p>
+                <p> Este paragráfo não será afetado!</p>
+        </div>
+    </section>
+    
+</body>
+</html>

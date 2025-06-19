@@ -1,0 +1,90 @@
+body {
+    background-image: url(imagens/fundo.png);
+    background-repeat: no-repeat;            /* Não repetir */
+    background-size: cover;                  /* Cobrir toda a tela */
+    background-position: center;             /* Centralizar a imagem */ 
+}
+
+/* Parte de cima do site */
+.tabela-centralizada {
+    border: none;
+    width: 900px;
+    margin:0 auto;
+}
+
+
+#edicão-especial{
+    text-align: left; 
+    font-size: 22px;
+
+}
+
+#logo-do-portif {
+    text-align: center;
+}
+
+#paginas {
+    text-align: right;
+    font-size: 22px;
+}
+
+/* Parte do Break news */
+#break-news {
+    font-size: 70px; 
+    text-align: center;
+}
+
+
+/* HR com borda maior */
+.hr-maior {
+    border: 3px solid black;
+}
+
+
+/* links na cor preta */
+a {
+    color: black;
+}
+
+/* Seçaõ da minha foto e o Sobre mim */
+#foto-minha {
+    box-align: center; 
+}
+
+.p-alinhado {
+    text-align: justify;
+    font-size: 20px;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+.hr-medio {
+    border: 2px solid black;
+}
+
+.centraliza-img {
+    text-align: center; 
+}
+
+
+.p-linguagens {
+    text-align: left;
+    font-size: 20px;
+}
+
+#p-trabalhos {
+    text-align: center;
+    font-size: 22px;
+}
+
+#link-github {
+    color: rgb(34, 9, 9);
+}
+
+h3 {
+    text-align: center;
+}
+

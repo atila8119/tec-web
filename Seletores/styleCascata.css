@@ -1,0 +1,21 @@
+body {
+    color: green;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    color: blue;
+    font-size: 20px;
+}
+
+.destaque {
+    color: aqua;
+}
+
+#info {
+    color: red;
+}
